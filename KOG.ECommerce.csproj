@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Companies\GetAllCompaniesByGroupID\**" />
+    <Compile Remove="Features\Company\**" />
+    <Compile Remove="Features\Discounts\ActivateDiscount\Orchestrator\**" />
+    <Compile Remove="Features\Discounts\AddDiscount\Orchestrator\**" />
+    <Compile Remove="Features\Governorates\CreateGovernorate\Queries\**" />
+    <Compile Remove="Features\Orders\GetProductsTotalWeight\**" />
+    <Content Remove="Features\Companies\GetAllCompaniesByGroupID\**" />
+    <Content Remove="Features\Company\**" />
+    <Content Remove="Features\Discounts\ActivateDiscount\Orchestrator\**" />
+    <Content Remove="Features\Discounts\AddDiscount\Orchestrator\**" />
+    <Content Remove="Features\Governorates\CreateGovernorate\Queries\**" />
+    <Content Remove="Features\Orders\GetProductsTotalWeight\**" />
+    <EmbeddedResource Remove="Features\Companies\GetAllCompaniesByGroupID\**" />
+    <EmbeddedResource Remove="Features\Company\**" />
+    <EmbeddedResource Remove="Features\Discounts\ActivateDiscount\Orchestrator\**" />
+    <EmbeddedResource Remove="Features\Discounts\AddDiscount\Orchestrator\**" />
+    <EmbeddedResource Remove="Features\Governorates\CreateGovernorate\Queries\**" />
+    <EmbeddedResource Remove="Features\Orders\GetProductsTotalWeight\**" />
+    <None Remove="Features\Companies\GetAllCompaniesByGroupID\**" />
+    <None Remove="Features\Company\**" />
+    <None Remove="Features\Discounts\ActivateDiscount\Orchestrator\**" />
+    <None Remove="Features\Discounts\AddDiscount\Orchestrator\**" />
+    <None Remove="Features\Governorates\CreateGovernorate\Queries\**" />
+    <None Remove="Features\Orders\GetProductsTotalWeight\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="FirebaseAdmin" Version="3.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MailKit" Version="4.8.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.8.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PredicateBuilder" Version="1.0.0" />
+    <PackageReference Include="PredicateExtensions" Version="1.0.0" />
+    <PackageReference Include="PredicateExtensionsCore" Version="1.0.2" />
+    <PackageReference Include="PredicateExtensions" Version="1.0.0" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+    <PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="7.0.1" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.37" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Orders\PlaceOrderByClient\Commands\" />
+    <Folder Include="Features\Products\DeleteProduct\Commands\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\Media\" />
+  </ItemGroup>
+
+</Project>

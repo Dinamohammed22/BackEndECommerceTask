@@ -1,0 +1,139 @@
+[
+  
+      {
+        "id": "1",
+        "governorate_name_ar": "القاهرة",
+        "governorate_code": "11511"
+      },
+      {
+        "id": "2",
+        "governorate_name_ar": "الجيزة",
+        "governorate_code": "12511"
+      },
+      {
+        "id": "3",
+        "governorate_name_ar": "الأسكندرية",
+        "governorate_code": "21511"
+      },
+      {
+        "id": "4",
+        "governorate_name_ar": "الدقهلية",
+        "governorate_code": "35111"
+      },
+      {
+        "id": "5",
+        "governorate_name_ar": "البحر الأحمر",
+        "governorate_code": "11111"
+      },
+      {
+        "id": "6",
+        "governorate_name_ar": "البحيرة",
+        "governorate_code": "22711"
+      },
+      {
+        "id": "7",
+        "governorate_name_ar": "الفيوم",
+        "governorate_code": "63111"
+      },
+      {
+        "id": "8",
+        "governorate_name_ar": "الغربية",
+        "governorate_code": "31511"
+      },
+      {
+        "id": "9",
+        "governorate_name_ar": "الإسماعلية",
+        "governorate_code": "41511"
+      },
+      {
+        "id": "10",
+        "governorate_name_ar": "المنوفية",
+        "governorate_code": "31111"
+      },
+      {
+        "id": "11",
+        "governorate_name_ar": "المنيا",
+        "governorate_code": "62111"
+      },
+      {
+        "id": "12",
+        "governorate_name_ar": "القليوبية",
+        "governorate_code": "13411"
+      },
+      {
+        "id": "13",
+        "governorate_name_ar": "الوادي الجديد",
+        "governorate_code": "73111"
+      },
+      {
+        "id": "14",
+        "governorate_name_ar": "السويس",
+        "governorate_code": "43511"
+      },
+      {
+        "id": "15",
+        "governorate_name_ar": "اسوان",
+        "governorate_code": "81111"
+      },
+      {
+        "id": "16",
+        "governorate_name_ar": "اسيوط",
+        "governorate_code": "71111"
+      },
+      {
+        "id": "17",
+        "governorate_name_ar": "بني سويف",
+        "governorate_code": "62511"
+      },
+      {
+        "id": "18",
+        "governorate_name_ar": "بورسعيد",
+        "governorate_code": "42511"
+      },
+      {
+        "id": "19",
+        "governorate_name_ar": "دمياط",
+        "governorate_code": "34511"
+      },
+      {
+        "id": "20",
+        "governorate_name_ar": "الشرقية",
+        "governorate_code": "44611"
+      },
+      {
+        "id": "21",
+        "governorate_name_ar": "جنوب سيناء",
+        "governorate_code": "46611"
+      },
+      {
+        "id": "22",
+        "governorate_name_ar": "كفر الشيخ",
+        "governorate_code": "33611"
+      },
+      {
+        "id": "23",
+        "governorate_name_ar": "مطروح",
+        "governorate_code": "51511"
+      },
+      {
+        "id": "24",
+        "governorate_name_ar": "الأقصر",
+        "governorate_code": "85911"
+      },
+      {
+        "id": "25",
+        "governorate_name_ar": "قنا",
+        "governorate_code": "82711"
+      },
+      {
+        "id": "26",
+        "governorate_name_ar": "شمال سيناء",
+        "governorate_code": "46611"
+      },
+      {
+        "id": "27",
+        "governorate_name_ar": "سوهاج",
+        "governorate_code": "82711"
+      }
+    
+]
